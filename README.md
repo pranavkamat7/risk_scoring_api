@@ -33,6 +33,16 @@ cd risk-scoring-api
 cd riskapi
 ```
 
+If you are using windows(my case) then you must do following step:-
+
+---
+
+```
+Open entrypoint.sh in VS Code (or any good editor).
+Bottom-right → click CRLF → change to LF.
+Save the file.
+```
+
 ### 2. Build and Run the Containers
 
 ```bash
@@ -105,18 +115,18 @@ Content-Type: application/json
 ## 📂 Project Structure
 
 ```
-risk-scoring-api/
-│
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── riskapi/           # Django project
-│   ├── settings.py
-│   └── urls.py
-├── scoring/           # Django app
-│   ├── models.py
-│   ├── views.py
-│   └── serializers.py
+risk-scoring-api/risk_scoring_api/riskapi
+                                        │
+                                        ├── Dockerfile
+                                        ├── docker-compose.yml
+                                        ├── requirements.txt
+                                        ├── riskapi/           # Django project
+                                        │   ├── settings.py
+                                        │   └── urls.py
+                                        ├── scoring/           # Django app
+                                        │   ├── models.py
+                                        │   ├── views.py
+                                        │   └── serializers.py
 ```
 
 Also without docker you can even run locally by 
