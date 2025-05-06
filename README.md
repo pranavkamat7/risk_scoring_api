@@ -119,7 +119,7 @@ risk-scoring-api/
 │   └── serializers.py
 ```
 
-can run locally by 
+Also without docker you can even run locally by 
 ```
 python manage.py runserver
 ```
