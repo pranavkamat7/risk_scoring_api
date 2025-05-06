@@ -33,6 +33,11 @@ cd risk-scoring-api
 cd riskapi
 ```
 
+can run locally by python manage.py runserver 
+create superuser and create token for it
+you can test on postman
+
+
 ### 2. Build and Run the Containers
 
 ```bash
