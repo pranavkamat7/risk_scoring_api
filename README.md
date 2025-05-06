@@ -30,6 +30,7 @@ A secure, Dockerized REST API for computing mock "risk scores" based on metadata
 git clone https://github.com/pranavkamat7/risk_scoring_api.git
 cd risk_scoring_api
 cd risk-scoring-api
+cd riskapi
 ```
 
 ### 2. Build and Run the Containers
